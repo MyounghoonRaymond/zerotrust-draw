@@ -201,6 +201,3 @@ func sessionCookieAttrs(value string, expires time.Time, maxAge int) *http.Cooki
 - **secure_delete PRAGMA**: 삭제 데이터 잔여 차단
 - **DB 파일 권한 0600 강제**: 기동 시 chmod 검증
 
-## 발표용 한 줄
-
-> "OWASP Top 10 9개 카테고리에 대해 적용된 통제를 갖추고, 발표 시연으로 인증/세션/추첨 결과 변조를 모두 즉시 발각시킬 수 있다."
